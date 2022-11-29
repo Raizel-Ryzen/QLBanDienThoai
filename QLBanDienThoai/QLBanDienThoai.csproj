@@ -73,6 +73,17 @@
     <Compile Include="DonHang\DonHang.Designer.cs">
       <DependentUpon>DonHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="QC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QC.Designer.cs">
+      <DependentUpon>QC.cs</DependentUpon>
+    </Compile>
     <Compile Include="HangHoa\Tab_dienthoai.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +151,9 @@
     <EmbeddedResource Include="DonHang\Form_chitietdonhang.resx">
       <DependentUpon>Form_chitietdonhang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="QC.resx">
+      <DependentUpon>QC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HangHoa\HangHoa.resx">
       <DependentUpon>HangHoa.cs</DependentUpon>
     </EmbeddedResource>
@@ -167,11 +181,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -203,8 +212,7 @@
     <None Include="Resources\user.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\user %281%29.png" />
+    <Folder Include="bin\Release\HinhDienThoai\" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

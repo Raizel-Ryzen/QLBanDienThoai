@@ -31,7 +31,7 @@ namespace QLBanDienThoai
         {
         if (Kiemtradangnhap(txtTaikhoan.Text,txtMatkhau.Text))
             {
-                Main f=new Main();  
+                QC f=new QC();  
                 f.Show();
                 this.Hide();
                
@@ -78,6 +78,11 @@ namespace QLBanDienThoai
             DialogResult dg = MessageBox.Show("Bạn có muốn thoát ?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dg == DialogResult.Yes)
                 Application.Exit();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

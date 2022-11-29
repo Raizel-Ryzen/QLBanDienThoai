@@ -19,7 +19,7 @@ namespace QLBanDienThoai.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -76,6 +76,46 @@ namespace QLBanDienThoai.Properties {
         internal static System.Drawing.Bitmap icon_openfile {
             get {
                 object obj = ResourceManager.GetObject("icon_openfile", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thiet_ke_app_hcm1_2021_8c873390941f4a6c962f13271056ca0a {
+            get {
+                object obj = ResourceManager.GetObject("thiet-ke-app-hcm1-2021_8c873390941f4a6c962f13271056ca0a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thiet_ke_app_hcm1_2021_8c873390941f4a6c962f13271056ca0a1 {
+            get {
+                object obj = ResourceManager.GetObject("thiet-ke-app-hcm1-2021_8c873390941f4a6c962f13271056ca0a1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thiet_ke_app_hcm1_2021_8c873390941f4a6c962f13271056ca0a2 {
+            get {
+                object obj = ResourceManager.GetObject("thiet-ke-app-hcm1-2021_8c873390941f4a6c962f13271056ca0a2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thiet_ke_app_hcm1_2021_8c873390941f4a6c962f13271056ca0a3 {
+            get {
+                object obj = ResourceManager.GetObject("thiet-ke-app-hcm1-2021_8c873390941f4a6c962f13271056ca0a3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

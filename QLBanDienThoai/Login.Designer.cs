@@ -39,9 +39,9 @@
             // 
             // btnDangnhap
             // 
-            this.btnDangnhap.Location = new System.Drawing.Point(34, 133);
+            this.btnDangnhap.Location = new System.Drawing.Point(107, 169);
             this.btnDangnhap.Name = "btnDangnhap";
-            this.btnDangnhap.Size = new System.Drawing.Size(75, 23);
+            this.btnDangnhap.Size = new System.Drawing.Size(83, 34);
             this.btnDangnhap.TabIndex = 0;
             this.btnDangnhap.Text = "Đăng nhập";
             this.btnDangnhap.UseVisualStyleBackColor = true;
@@ -49,18 +49,20 @@
             // 
             // txtTaikhoan
             // 
-            this.txtTaikhoan.Location = new System.Drawing.Point(121, 47);
+            this.txtTaikhoan.Location = new System.Drawing.Point(178, 71);
+            this.txtTaikhoan.Multiline = true;
             this.txtTaikhoan.Name = "txtTaikhoan";
-            this.txtTaikhoan.Size = new System.Drawing.Size(134, 20);
+            this.txtTaikhoan.Size = new System.Drawing.Size(177, 30);
             this.txtTaikhoan.TabIndex = 1;
             this.txtTaikhoan.TextChanged += new System.EventHandler(this.txtTaikhoan_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(31, 47);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label1.Location = new System.Drawing.Point(90, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 13);
+            this.label1.Size = new System.Drawing.Size(82, 20);
             this.label1.TabIndex = 2;
             this.label1.Text = "Tài khoản ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -68,25 +70,27 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(31, 88);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label2.Location = new System.Drawing.Point(91, 109);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.Size = new System.Drawing.Size(75, 20);
             this.label2.TabIndex = 3;
             this.label2.Text = "Mật khẩu";
             // 
             // txtMatkhau
             // 
-            this.txtMatkhau.Location = new System.Drawing.Point(121, 85);
+            this.txtMatkhau.Location = new System.Drawing.Point(178, 109);
+            this.txtMatkhau.Multiline = true;
             this.txtMatkhau.Name = "txtMatkhau";
             this.txtMatkhau.PasswordChar = '*';
-            this.txtMatkhau.Size = new System.Drawing.Size(134, 20);
+            this.txtMatkhau.Size = new System.Drawing.Size(177, 30);
             this.txtMatkhau.TabIndex = 4;
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(154, 133);
+            this.btnThoat.Location = new System.Drawing.Point(233, 169);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(75, 23);
+            this.btnThoat.Size = new System.Drawing.Size(83, 34);
             this.btnThoat.TabIndex = 5;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
@@ -95,7 +99,7 @@
             // chkpass
             // 
             this.chkpass.AutoSize = true;
-            this.chkpass.Location = new System.Drawing.Point(121, 112);
+            this.chkpass.Location = new System.Drawing.Point(178, 146);
             this.chkpass.Name = "chkpass";
             this.chkpass.Size = new System.Drawing.Size(108, 17);
             this.chkpass.TabIndex = 6;
@@ -108,7 +112,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(278, 186);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(408, 290);
             this.Controls.Add(this.chkpass);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.txtMatkhau);
