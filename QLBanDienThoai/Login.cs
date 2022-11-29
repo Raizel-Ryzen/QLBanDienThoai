@@ -31,7 +31,7 @@ namespace QLBanDienThoai
         {
         if (Kiemtradangnhap(txtTaikhoan.Text,txtMatkhau.Text))
             {
-                QC f=new QC();  
+                GT f=new GT();  
                 f.Show();
                 this.Hide();
                
@@ -81,6 +81,11 @@ namespace QLBanDienThoai
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
         {
 
         }

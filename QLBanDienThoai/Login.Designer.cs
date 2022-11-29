@@ -35,11 +35,13 @@
             this.txtMatkhau = new System.Windows.Forms.TextBox();
             this.btnThoat = new System.Windows.Forms.Button();
             this.chkpass = new System.Windows.Forms.RadioButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnDangnhap
             // 
-            this.btnDangnhap.Location = new System.Drawing.Point(107, 169);
+            this.btnDangnhap.Location = new System.Drawing.Point(149, 210);
             this.btnDangnhap.Name = "btnDangnhap";
             this.btnDangnhap.Size = new System.Drawing.Size(83, 34);
             this.btnDangnhap.TabIndex = 0;
@@ -49,7 +51,7 @@
             // 
             // txtTaikhoan
             // 
-            this.txtTaikhoan.Location = new System.Drawing.Point(178, 71);
+            this.txtTaikhoan.Location = new System.Drawing.Point(149, 112);
             this.txtTaikhoan.Multiline = true;
             this.txtTaikhoan.Name = "txtTaikhoan";
             this.txtTaikhoan.Size = new System.Drawing.Size(177, 30);
@@ -60,7 +62,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(90, 71);
+            this.label1.Location = new System.Drawing.Point(61, 112);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(82, 20);
             this.label1.TabIndex = 2;
@@ -71,7 +73,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label2.Location = new System.Drawing.Point(91, 109);
+            this.label2.Location = new System.Drawing.Point(62, 150);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 20);
             this.label2.TabIndex = 3;
@@ -79,7 +81,7 @@
             // 
             // txtMatkhau
             // 
-            this.txtMatkhau.Location = new System.Drawing.Point(178, 109);
+            this.txtMatkhau.Location = new System.Drawing.Point(149, 150);
             this.txtMatkhau.Multiline = true;
             this.txtMatkhau.Name = "txtMatkhau";
             this.txtMatkhau.PasswordChar = '*';
@@ -88,7 +90,7 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(233, 169);
+            this.btnThoat.Location = new System.Drawing.Point(275, 210);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(83, 34);
             this.btnThoat.TabIndex = 5;
@@ -99,7 +101,7 @@
             // chkpass
             // 
             this.chkpass.AutoSize = true;
-            this.chkpass.Location = new System.Drawing.Point(178, 146);
+            this.chkpass.Location = new System.Drawing.Point(149, 187);
             this.chkpass.Name = "chkpass";
             this.chkpass.Size = new System.Drawing.Size(108, 17);
             this.chkpass.TabIndex = 6;
@@ -108,12 +110,25 @@
             this.chkpass.UseVisualStyleBackColor = true;
             this.chkpass.CheckedChanged += new System.EventHandler(this.chkpass_CheckedChanged);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::QLBanDienThoai.Properties.Resources.user__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(149, 11);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(177, 87);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(408, 290);
+            this.BackColor = System.Drawing.Color.Teal;
+            this.ClientSize = new System.Drawing.Size(426, 290);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.chkpass);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.txtMatkhau);
@@ -124,6 +139,7 @@
             this.Name = "Login";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,5 +154,6 @@
         private System.Windows.Forms.TextBox txtMatkhau;
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.RadioButton chkpass;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

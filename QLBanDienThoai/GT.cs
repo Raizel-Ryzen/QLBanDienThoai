@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QLBanDienThoai
 {
-    public partial class QC : Form
+    public partial class GT : Form
     {
-        public QC()
+        public GT()
         {
             InitializeComponent();
         }
