@@ -236,5 +236,11 @@ namespace QLBanDienThoai
                 lb_them_KH.Text = "";
             btn_them_KH.Enabled = true;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Formrp rp = new Formrp();
+            rp.Show();
+        }
     }
 }
